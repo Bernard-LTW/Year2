@@ -63,13 +63,13 @@ class ipv6machine():
         return output
 
 def test_ipv6machine():
-    test = ipv6machine(10000000)
+    test = ipv6machine(10)
     print(test.create_ipv6_address_v2())
 
 
 
-#test_ipv6machine()
+test_ipv6machine()
 
 
-print(set([":".join(''.join("abcdef0123456789"[random.randint(0,15)] for _ in range(4)) for _ in range(8)) for _ in range(8)]))
+#print(set([":".join(''.join("abcdef0123456789"[random.randint(0,15)] for _ in range(4)) for _ in range(8)) for _ in range(8)]))
 

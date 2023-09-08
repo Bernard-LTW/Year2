@@ -77,3 +77,6 @@ def test_ipv6machine():
 
 ### Paper Programming
 ![Paper Programming](../Assets/Quiz071.jpeg)
+
+### Evidence
+![Evidence](../Assets/Quiz071Evidence.jpg)

@@ -30,3 +30,6 @@ print(boi.final())
 
 ### Paper Programming
 ![Paper Programming](../Assets/Quiz072.jpeg)
+
+### Evidence
+![Evidence](../Assets/Quiz072Evidence.jpg)

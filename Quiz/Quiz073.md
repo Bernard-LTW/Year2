@@ -43,3 +43,6 @@ class ip_tables():
 
 ### Paper Programming
 ![Paper Programming](../Assets/Quiz073.jpeg)
+
+### Evidence
+![Evidence](../Assets/Quiz073Evidence.jpg)
