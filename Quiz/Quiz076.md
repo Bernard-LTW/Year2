@@ -1,4 +1,4 @@
-# Quiz 075
+# Quiz 076
 
 ## Prompt
 Create the function
@@ -48,4 +48,4 @@ print(boi.error_check())
 ![Paper Programming](../Assets/Quiz076.jpeg)
 
 ### Evidence
-![Evidence](../Assets/Quiz076Evidence.jpeg)
+![Evidence](../Assets/Quiz076Evidence.jpg)

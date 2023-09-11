@@ -27,7 +27,7 @@ class ipv6machine():
                 big_temp = big_temp + temp + ":"
             output.add(big_temp[:-1])
             # print(big_temp[:-1])
-        return set(output)
+        return output
 
     def create_ipv6_address_v2(self):
         hex_chars = "0123456789abcdef"
@@ -76,7 +76,8 @@ def test_ipv6machine():
 ```
 
 ### Paper Programming
-![Paper Programming](../Assets/Quiz071.jpeg)
+![Paper Programming](w
+../Assets/Quiz071.jpeg)
 
 ### Evidence
 ![Evidence](../Assets/Quiz071Evidence.jpg)
