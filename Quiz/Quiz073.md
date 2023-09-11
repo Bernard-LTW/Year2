@@ -1,7 +1,8 @@
 # Quiz 073
 
 ## Prompt
-Create the code for the Routing Machine
+Create a simple program to manage a network routing table. A routing table is used by network devices, like routers, to determine where to send data based on MAC addresses. Your program will help manage the mapping between MAC and IP addresses.
+
 ## Code Structure
 
 ### Python File

@@ -1,7 +1,8 @@
 # Quiz 076
 
 ## Prompt
-Create the function
+Create the function.
+
 ## Code Structure
 
 ### Python File

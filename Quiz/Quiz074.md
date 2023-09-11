@@ -1,7 +1,7 @@
 # Quiz 074
 
 ## Prompt
-Create the function
+A data package is build by splitting the data into fixed sizes (load) and attach a header which contains the MAC address, IP address of the sender (sx) and destination (rx), and a sequence number to reconstruct the data.
 ## Code Structure
 
 ### Python File

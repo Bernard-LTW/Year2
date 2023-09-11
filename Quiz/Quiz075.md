@@ -1,7 +1,8 @@
 # Quiz 075
 
 ## Prompt
-Create the function
+Physical Layer of the OSI model primarily deals with the physical aspects of data transmission, including the hardware, transmission medium (cable, waves, etc), encoding, signaling, and synchronization necessary to send raw bits between devices.
+
 ## Code Structure
 
 ### Python File
