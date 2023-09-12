@@ -27,7 +27,7 @@ class ip_tables():
                 while True:
                     ip = self.ipv4machine(N=1)
                     if not ip in self.routing_table.values():
-                        self.routing_table[MAC].append(ip)
+                        self.routing_table[MAC].append(ip[0])
                         ip_out = ip
                         break
             return ip_out
