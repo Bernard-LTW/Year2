@@ -31,25 +31,26 @@ def ipv4machine_alex():
     return
 
 
-#test run time of algorithms
-import time
+# #test run time of algorithms
+# import time
+# # start = time.time()
+# # ipv4machine()
+# # end = time.time()
+# # print(f"ipv4machine: {end-start}")
+# time.sleep(3)
 # start = time.time()
-# ipv4machine()
+# ipv4machine_bernard()
 # end = time.time()
-# print(f"ipv4machine: {end-start}")
-time.sleep(3)
-start = time.time()
-ipv4machine_bernard()
-end = time.time()
-print(f"ipv4machine_bernard: {end-start}")
-temp1 = end-start
-time.sleep(3)
-start = time.time()
-ipv4machine_alex()
-end = time.time()
-print(f"ipv4machine_alex: {end-start}")
-temp2 = end-start
-
-print(f"ipv4machine_bernard is {temp2/temp1} times faster than ipv4machine_alex")
+# print(f"ipv4machine_bernard: {end-start}")
+# temp1 = end-start
+# time.sleep(3)
+# start = time.time()
+# ipv4machine_alex()
+# end = time.time()
+# print(f"ipv4machine_alex: {end-start}")
+# temp2 = end-start
+#
+# print(f"ipv4machine_bernard is {temp2/temp1} times faster than ipv4machine_alex")
 
 
+print(ipv4machine_bernard())
