@@ -1,4 +1,4 @@
-# Quiz 077
+[# Quiz 077
 
 ## Prompt
 Physical layer is also in charge of detecting and trying to correct errors in the data transmitted. One simple way would be to send copies of the data and check that the copies match. Assume the data is 2 copies of the data plus original.
@@ -31,4 +31,4 @@ print(boi2.check_parity())
 ![Paper Programming](../Assets/Quiz077.jpeg)
 
 ### Evidence
-![Evidence](../Assets/Quiz077Evidence.jpg)
+![Evidence](../Assets/Quiz077Evidence.jpg)]
