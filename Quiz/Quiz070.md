@@ -19,3 +19,5 @@ def ipv4machine_bernard():
 
 ### Paper Programming
 ![Paper Programming](../Assets/Quiz070.jpeg)
+*Fig.1* **Proof of Paper Programming**
+

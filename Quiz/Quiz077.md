@@ -29,6 +29,9 @@ print(boi2.check_parity())
 
 ### Paper Programming
 ![Paper Programming](../Assets/Quiz077.jpeg)
+*Fig.1* **Proof of Paper Programming**
+
 
 ### Evidence
 ![Evidence](../Assets/Quiz077Evidence.jpg)]
+*Fig.2* **Image showing output of program**

@@ -28,6 +28,9 @@ print(build_data_pkg("80:90:00:00:00:00","192.168.3.3","80:90:00:00:00:01","192.
 
 ### Paper Programming
 ![Paper Programming](../Assets/Quiz074.jpeg)
+*Fig.1* **Proof of Paper Programming**
+
 
 ### Evidence
 ![Evidence](../Assets/Quiz074Evidence.jpg)
+*Fig.2* **Image showing output of program**

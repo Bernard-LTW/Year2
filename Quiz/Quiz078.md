@@ -36,6 +36,9 @@ print(boi2.layer4())
 
 ### Paper Programming
 ![Paper Programming](../Assets/Quiz078.jpeg)
+*Fig.1* **Proof of Paper Programming**
+
 
 ### Evidence
 ![Evidence](../Assets/Quiz078Evidence.jpg)
+*Fig.2* **Image showing output of program**

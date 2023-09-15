@@ -31,6 +31,9 @@ class osi_phsyical():
 
 ### Paper Programming
 ![Paper Programming](../Assets/Quiz075.jpeg)
+*Fig.1* **Proof of Paper Programming**
+
 
 ### Evidence
 ![Evidence](../Assets/Quiz075Evidence.jpg)
+*Fig.2* **Image showing output of program**

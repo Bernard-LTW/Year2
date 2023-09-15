@@ -44,6 +44,8 @@ class ip_tables():
 
 ### Paper Programming
 ![Paper Programming](../Assets/Quiz073.jpeg)
+*Fig.1* **Proof of Paper Programming**
 
 ### Evidence
 ![Evidence](../Assets/Quiz073Evidence.jpg)
+*Fig.2* **Image showing output of program**

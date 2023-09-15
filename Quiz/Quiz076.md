@@ -47,6 +47,9 @@ print(boi.error_check())
 
 ### Paper Programming
 ![Paper Programming](../Assets/Quiz076.jpeg)
+*Fig.1* **Proof of Paper Programming**
+
 
 ### Evidence
 ![Evidence](../Assets/Quiz076Evidence.jpg)
+*Fig.2* **Image showing output of program**
