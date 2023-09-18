@@ -1,4 +1,4 @@
-# Quiz 078
+# Quiz 079
 
 ## Prompt
 Create the class for a palindromic checker
