@@ -1,8 +1,8 @@
 import random
 
 class collection:
-    def __init__(self):
-        self.items = []
+    def __init__(self, items = []):
+        self.items = items
         self.location = 0
 
     def addItem(self, item):
@@ -49,10 +49,29 @@ class collection:
 
 
 
+class queue:
+    def __init__(self):
+        self.data = []
+
+    def enqueue(self, item):
+        self.data.append(item)
+        return
+
+    def dequeue(self):
+        item = self.data[0]
+        self.data = self.data[1:len(self.data)]
+        return item
+
+    def __repr__(self):
+        return f"<Queue> {self.data}"
 
 
-#Imagining how the user would use the class
-x = collection()
-x.addItem('bob')
-print(x.isEmpty())
-print(x.hasNext())
+#test the queue
+q = queue()
+q.enqueue(1)
+q.enqueue(2)
+q.enqueue(3)
+q.enqueue(4)
+q.enqueue(5)
+print(q.dequeue())
+print(q)
