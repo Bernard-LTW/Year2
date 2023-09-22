@@ -50,8 +50,8 @@ class collection:
 
 
 class queue:
-    def __init__(self):
-        self.data = []
+    def __init__(self, data = []):
+        self.data = data
 
     def enqueue(self, item):
         self.data.append(item)
@@ -62,16 +62,37 @@ class queue:
         self.data = self.data[1:len(self.data)]
         return item
 
+    def isEmpty(self):
+        return bool(len(self.data)==0)
+
     def __repr__(self):
         return f"<Queue> {self.data}"
 
 
+class stack:
+    def __init__(self, data = []):
+        self.data = data
+
+    def push(self, item):
+        self.data.append(item)
+        return
+
+    def pop(self):
+        item = self.data[len(self.data)-1]
+        self.data = self.data[0:len(self.data)-1]
+        return item
+
+    def isEmpty(self):
+        return bool(self.data)
+
+    def __repr__(self):
+        return f"<Stack> {self.data}"
 #test the queue
-q = queue()
-q.enqueue(1)
-q.enqueue(2)
-q.enqueue(3)
-q.enqueue(4)
-q.enqueue(5)
-print(q.dequeue())
-print(q)
+# q = queue()
+# q.enqueue(1)
+# q.enqueue(2)
+# q.enqueue(3)
+# q.enqueue(4)
+# q.enqueue(5)
+# print(q.dequeue())
+# print(q)
