@@ -87,12 +87,24 @@ class stack:
 
     def __repr__(self):
         return f"<Stack> {self.data}"
-#test the queue
-# q = queue()
-# q.enqueue(1)
-# q.enqueue(2)
-# q.enqueue(3)
-# q.enqueue(4)
-# q.enqueue(5)
-# print(q.dequeue())
-# print(q)
+
+class Node:
+    def __init__(self, data):
+        self.data = data
+        self.next = None
+
+    def __repr__(self):
+        out = f"Node[{self.data}]"
+        temp = self.next
+        while temp:
+            out += f"->Node[{temp.data}]"
+            temp = temp.next
+        return out
+
+    def addNode(self, node):
+        if self.next:
+            temp = self.next
+            node.next = temp
+            self.next = node
+        else:
+            self.next = node
