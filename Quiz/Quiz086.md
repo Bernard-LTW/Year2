@@ -1,7 +1,7 @@
-# Quiz 085
+# Quiz 086
 
 ## Prompt
-Draw the UML Diagram
+Draw the UML Diagram and code the constructor for the class below.
 
 ## Code Structure
 ```python
@@ -39,5 +39,5 @@ c = PartTimeEmployee("Joe","Nagano","Alive",100000,0.5,False)
 ```
 
 ## Paper Programming
-![Paper Programming](../Assets/Quiz085.jpeg)
+![Paper Programming](../Assets/Quiz086.jpeg)
 *Fig.1* **Proof of Paper Programming**
