@@ -5,37 +5,41 @@ Draw the UML Diagram and code the constructor for the class below.
 
 ## Code Structure
 ```python
-class Citizen():
-    def __init__(self, name: str, city: str, status: str):
-        self.name = name
-        self.city = city
-        self.status = status
+class Pixel():
+    def __init__(self,row:int,col:int,active:bool):
+        self.row = row
+        self.col = col
+        self.active = active
 
-    def getName(self): return self.name
+    def getRow(self):return self.row
+    def getCol(self):return self.col
 
-    def getCity(self): return self.city
-
-    def getStatus(self): return self.status
-
-
-class Employee(Citizen):
-    def __init__(self, name: str, city: str, status: str, annual_salary: int):
-        self.annual_salary = annual_salary
-        Citizen.__init__(self, name, city, status)
-
-    def getSalary(self): return self.annual_salary
+    def __repr__(self):
+        return str("■" if self.active else "□")
 
 
-class PartTimeEmployee(Employee):
-    def __init__(self, name: str, city: str, status: str, annual_salary: int, fraction: float, union: bool):
-        self.fraction = fraction
-        self.union = union
-        Employee.__init__(self, name, city, status, annual_salary)
+class Screen():
+    def __init__(self,width:int,height:int):
+        self.width = width
+        self.height = height
+        temp = []
+        for i in range(height):
+            temp.append([])
+            for j in range(width):
+                temp[i].append(Pixel(i,j,False))
+        self.grid = temp
 
+    def flipPixel(self,y:int,x:int):
+        self.grid[y][x].active = not self.grid[y][x].active
+        return
 
-a = Citizen("Bob","Tokyo","Alive")
-b = Employee("Alice","Kyoto","Alive",100000)
-c = PartTimeEmployee("Joe","Nagano","Alive",100000,0.5,False)
+    def __repr__(self):
+        temp = ""
+        for i in range(self.height):
+            for j in range(self.width):
+                temp += str(self.grid[i][j])
+            temp += "\n"
+        return temp
 ```
 
 ## Paper Programming
