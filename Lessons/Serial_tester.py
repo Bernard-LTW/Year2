@@ -5,7 +5,7 @@ from matplotlib import pyplot as plt
 plt.style.use('ggplot')
 matplotlib.use("TkAgg")
 
-arduino = serial.Serial('/dev/cu.usbserial-210', baudrate=9600, timeout=.1)
+arduino = serial.Serial('/dev/cu.usbserial-110', baudrate=9600, timeout=.1)
 
 
 def get_data():
@@ -17,14 +17,15 @@ def get_data():
 
 rpms = []
 
-for i in range(50):
+for i in range(55):
     time.sleep(0.1)
     data = get_data()
     msg = data.decode('utf-8')
-    error, act, rpm = msg.strip().split(',')
+    rpm, act, error = msg.strip().split(',')
     print(f"Error: {error}, Actual: {act}, RPM: {rpm}")
-    rpms.append(float(float(rpm)*2))
+    rpms.append(float(float(rpm)))
 
 plt.plot(rpms)
+plt.hlines(y=sum(rpms)/len(rpms),xmin=0,xmax=len(rpms),color='r')
 plt.show()
 print(sum(rpms)/len(rpms))
